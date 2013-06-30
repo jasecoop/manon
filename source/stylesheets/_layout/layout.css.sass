@@ -1,4 +1,12 @@
 .container
   @include border-radius(10px)
-//   @include container
-//   background: red !important
+
+article.post
+  .photo
+    margin-bottom: 1em
+    &.full
+      @include span-columns(12,12)
+    &.half
+      @include span-columns(6,12)
+      &.half-2
+        @include span-columns(6 omega,12)
