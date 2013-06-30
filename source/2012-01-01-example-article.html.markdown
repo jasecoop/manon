@@ -6,6 +6,9 @@ tags: example
 
 <article class="post">
   <header>
+    <section class="title">
+      <p>Manon Test Post</p>
+    </section>
     <section class="intro">
       <p>This is an example article. Our posts are created using HTML. This paragraph of text is the 'intro', it could potentialy include an image/logo. Our grid consists of 12 columns providing 2 layout options for photos, full = 12 and half = 6.</p>
     </section>
