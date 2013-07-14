@@ -8,7 +8,11 @@ per_page: 10
   <section class="index">
     <ul>
       <% page_articles.each_with_index do |article, i| %>
-        <li><%= link_to article.title, article %></li>
+        <li>
+        	<%= link_to article.title, article %>
+        	<div class="thumb" style="background-image: url('<%= article.data.thumb %>');">
+        	</div>
+        </li>
       <% end %>
     </ul>
   </section>

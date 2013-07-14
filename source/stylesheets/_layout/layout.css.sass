@@ -10,3 +10,20 @@ article.post
       @include span-columns(6,12)
       &.half-2
         @include span-columns(6 omega,12)
+
+section.index
+  @include span-columns(3,12)
+
+.thumb
+  width: 60%
+  height: 100%
+  background-position: center
+  background-repeat: no-repeat
+  background-size: 200%
+  position: fixed
+  right: -9999px
+  top: 0
+  overflow: hidden
+
+.thumb.active
+  right: 0
