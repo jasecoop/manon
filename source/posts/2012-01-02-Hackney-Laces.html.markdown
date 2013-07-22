@@ -1,8 +1,8 @@
 ---
-title: Manon test post
-date: 2012-01-01
+title: Hackney Laces
+date: 2012-01-02
 tags: example
-thumb: "images/articles/valencia/manon_valencia_4.jpg"
+thumb: "images/articles/valencia/manon_valencia_3.jpg"
 ---
 
 <article class="post">

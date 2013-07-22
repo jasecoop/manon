@@ -1,0 +1,51 @@
+---
+title: Valencia
+date: 2012-01-04
+tags: example
+thumb: "images/articles/valencia/manon_valencia_2.jpg"
+---
+
+<article class="post">
+  <header>
+    <section class="title">
+      <p>Manon Test Post</p>
+    </section>
+    <section class="intro">
+      <p>This is an example article. Our posts are created using HTML. This paragraph of text is the 'intro', it could potentialy include an image/logo. Our grid consists of 12 columns providing 2 layout options for photos, full = 12 and half = 6.</p>
+    </section>
+  </header>
+
+  <section class="content">
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_1.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_2.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_3.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_4.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_5.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_6.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/valencia/manon_valencia_7.jpg">
+    </div>
+
+  </section>
+
+</article>
+
