@@ -2,35 +2,47 @@
 title: ReachOut
 date: 2012-01-02
 tags: example
-thumb: "images/articles/valencia/manon_valencia_5.jpg"
+thumb: "images/articles/reachout/manon_reachout_1.jpg"
 ---
 
 <article class="post">
   <header>
     <section class="title">
-      <p>Manon Test Post</p>
+      <p>ReachOut</p>
     </section>
     <section class="intro">
-      <p>This is an example article. Our posts are created using HTML. This paragraph of text is the 'intro', it could potentialy include an image/logo. Our grid consists of 12 columns providing 2 layout options for photos, full = 12 and half = 6.</p>
+      <p>ReachOut is a charity, founded in Manchester and brought to London almost a decade ago. It offers one-to-one mentoring for youths, using football as the driving force for inspiration. </p>
     </section>
   </header>
 
   <section class="content">
 
     <div class="photo full">
-      <img src="images/articles/test/MANO_vale_1.png">
+      <img src="images/articles/reachout/manon_reachout_1.jpg">
     </div>
 
     <div class="photo half half-1">
-      <img src="images/articles/test/MANO_vale_2.png">
+      <img src="images/articles/reachout/manon_reachout_2.jpg">
     </div>
 
     <div class="photo half half-2">
-      <img src="images/articles/test/MANO_vale_3.png">
+      <img src="images/articles/reachout/manon_reachout_3.jpg">
     </div>
 
     <div class="photo full">
-      <img src="images/articles/test/MANO_vale_4.png">
+      <img src="images/articles/reachout/manon_reachout_4.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/reachout/manon_reachout_5.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/reachout/manon_reachout_6.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/reachout/manon_reachout_7.jpg">
     </div>
 
   </section>

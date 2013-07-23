@@ -2,7 +2,7 @@
 title: Valencia
 date: 2012-01-04
 tags: example
-thumb: "images/articles/valencia/manon_valencia_2.jpg"
+thumb: "images/articles/valencia/manon_valencia_1.jpg"
 ---
 
 <article class="post">
@@ -11,7 +11,10 @@ thumb: "images/articles/valencia/manon_valencia_2.jpg"
       <p>Manon Test Post</p>
     </section>
     <section class="intro">
-      <p>This is an example article. Our posts are created using HTML. This paragraph of text is the 'intro', it could potentialy include an image/logo. Our grid consists of 12 columns providing 2 layout options for photos, full = 12 and half = 6.</p>
+      <p>The Túria river was diverted in 1957 after its waters caused devastation, almost completely drowning the Spanish city.</p>
+
+      <p>The old riverbed now plays host to a sunken park named Jardínes del Túria, which snakes its way through the entire city.</p>
+      <p>Runners, skaters and footballers now rule the Valencian underbelly.</p>
     </section>
   </header>
 
