@@ -3,7 +3,7 @@ $base-line-height : 28px
 @include establish-baseline
 
 $base-font-family : "ff-basic-gothic-web-pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
-$header-font-family: "franklin-gothic-ext-comp-urw", "Helvetica Neue", "Helvetica", "Arial", sans-serif
+$header-font-family: "ff-basic-gothic-web-pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif
 
 body
   font-family: $base-font-family
@@ -18,13 +18,13 @@ h1
   font-size: 8rem
   line-height: 1em
   font-weight: 900
+  font-style: italic
+  text-decoration: none
 
-section.index li a
+section.index li a.title
   @extend .mega
   color: $type-black
-  text-decoration: none
-  font-style: italic
-  padding: 15rem 0
+  padding: 19rem 0
   display: block
   &:hover
-    color: #E8FF00
+    color: $type-index
