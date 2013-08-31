@@ -2,6 +2,8 @@
 title: Manon test post
 date: 2012-01-01
 tags: example
+thumb: "images/articles/valencia/manon_valencia_4.jpg"
+published: false
 ---
 
 <article class="post">
