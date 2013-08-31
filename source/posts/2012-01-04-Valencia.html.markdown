@@ -3,17 +3,18 @@ title: Valencia
 date: 2012-01-04
 tags: example
 thumb: "images/articles/valencia/manon_valencia_1.jpg"
+published: true
 ---
 
 <article class="post">
   <header>
     <section class="title">
-      <p>Manon Test Post</p>
+      <p>Valencia</p>
     </section>
     <section class="intro">
       <p>The Túria river was diverted in 1957 after its waters caused devastation, almost completely drowning the Spanish city.</p>
 
-      <p>The old riverbed now plays host to a sunken park named Jardínes del Túria, which snakes its way through the entire city.</p>
+      <p>The old riverbed now plays host to a sunken park named Jardínes del Túria, which snakes its way from east to west.</p>
       <p>Runners, skaters and footballers now rule the Valencian underbelly.</p>
     </section>
   </header>

@@ -8,7 +8,7 @@ thumb: "images/articles/practicehours/manon_practicehours_5.jpg"
 <article class="post">
   <header>
     <section class="title">
-      <p>Manon Test Post</p>
+      <p>Practice Hours</p>
     </section>
     <section class="intro">
       <p>
@@ -26,15 +26,11 @@ thumb: "images/articles/practicehours/manon_practicehours_5.jpg"
     </div>
 
     <div class="photo full">
-      <img src="images/articles/practicehours/manon_practicehours_2.jpg">
-    </div>
-
-    <div class="photo full">
-      <img src="images/articles/practicehours/manon_practicehours_3.jpg">
-    </div>
-
-    <div class="photo full">
       <img src="images/articles/practicehours/manon_practicehours_4.jpg">
+    </div>
+
+    <div class="photo full">
+      <img src="images/articles/practicehours/manon_practicehours_2.jpg">
     </div>
 
     <div class="photo full">
