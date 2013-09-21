@@ -3,18 +3,27 @@ pageable: true
 per_page: 10
 ---
 
+    <div class="copy">
+      <p>MANON is a pursuit of stories celebrating football passion and simplicity.</p>
+
+      <p>For project enquiries and collaborations please email — <a href="mailto:jfay.simmons@gmail.com">jfay.simmons@gmail.com</a></p>
+
+      <p>By <a href="http://twitter.com/jennysimeone">@JennySimeone</a> — follow for MANON updates.</p>
+    </div>
+  </div>
+
 <section class="index">
   <ul>
     <% page_articles.each_with_index do |article, i| %>
-      <li>
+      <li class="link link-<%= i %>">
+        <div class="thumb" style="background-image: url('<%= article.data.thumb %>');">
+        </div>
       	<%= link_to article.title, article, :class => 'title' %>
-      	<div class="thumb" style="background-image: url('<%= article.data.thumb %>');">
-      	</div>
       </li>
     <% end %>
   </ul>
 
-  <div class="about">
+<!--   <div class="about">
     <div class="content">
 
       <p>MANON is a pursuit of stories celebrating football passion and simplicity.</p>
@@ -25,6 +34,6 @@ per_page: 10
 
     </div>
 
-</div>
+</div> -->
 </section>
 

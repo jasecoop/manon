@@ -4,6 +4,15 @@ section.index
     padding: 0
   li
     list-style: none
+    display: block
+    position: relative
+    a
+      position: absolute
+    &.active
+      a
+        z-index: 2
+      .thumb
+        visibility: visible
 
   .about
     margin-top: 40em
@@ -11,3 +20,23 @@ section.index
       width: 60%
       float: right
       margin-top: -20em
+
+
+.thumb
+  width: 60%
+  height: 660px
+  background-position: center center
+  background-repeat: no-repeat
+  background-size: 100%
+  position: fixed
+  overflow: hidden
+  visibility: hidden
+  z-index: -1
+
+.link-final
+  .thumb
+    .copy
+      padding: 3em
+      margin-top: 200px
+
+
