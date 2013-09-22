@@ -7,6 +7,7 @@
       return if _init
       _init         = true
 
+      $.browser = (/android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase()));
       manon.win      = $(window)
       manon.docEl    = $(document.documentElement)
       manon.bodyEl   = $(document.body)
@@ -32,14 +33,13 @@
         $abouttxt.css('padding-top', win_h/2 + 'px')
         $abouttxt.css('margin-top', '-' + at_h/2 + 'px')
 
-
-      $("section.links ul li a").hover (->
-        $(this).next('.thumb').fadeIn(500)
-      ), ->
-        $(this).next('.thumb').fadeOut(500)
-
-      if $(window).width() > 480
+      if $.browser 
+      else
         sizeAbout()
+        $("section.links ul li a").hover (->
+          $(this).next('.thumb').fadeIn(500)
+        ), ->
+          $(this).next('.thumb').fadeOut(500)
     manon
   )()
 
@@ -47,40 +47,3 @@
     Manon.init()
 
 ) window, window.document
-
-# full_size_li = ->
-#   $li.each =>
-#     alert('dfg')
-
-# show_first_link = ->
-#   $thumb = $('section.index ul li:first-child .thumb')
-
-#   $thumb.addClass('active')
-
-# link_hover = ->
-#   $link = $('.index a.title')
-#   $link.hover (->
-#     $(this).next().addClass('active')
-#   ), ->
-#     $(this).next().removeClass('active')
-
-# link_height = ->
-#   $link = $('.index a.title')
-#   win_h = $(window).height()
-
-#   $link.each ->
-#     $(this).css('line-height', win_h + 'px')
-
-
-# $ -> 
-#   # link_hover()
-#   # link_height()
-
-#   #els
-#   $li = $('section.index ul li')
-
-#   #Measurements
-#   win_h = $(window).height()
-
-#   full_size_li()
-#   show_first_link()

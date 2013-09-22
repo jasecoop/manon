@@ -9801,6 +9801,7 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
           return;
         }
         _init = true;
+        $.browser = /android|webos|iphone|ipad|ipod|blackberry|iemobile|opera mini/i.test(navigator.userAgent.toLowerCase());
         manon.win = $(window);
         manon.docEl = $(document.documentElement);
         manon.bodyEl = $(document.body);
@@ -9821,13 +9822,15 @@ if ( typeof module === "object" && module && typeof module.exports === "object" 
           $abouttxt.css('padding-top', win_h / 2 + 'px');
           return $abouttxt.css('margin-top', '-' + at_h / 2 + 'px');
         };
-        $("section.links ul li a").hover((function() {
-          return $(this).next('.thumb').fadeIn(500);
-        }), function() {
-          return $(this).next('.thumb').fadeOut(500);
-        });
-        if ($(window).width() > 480) {
-          return sizeAbout();
+        if ($.browser) {
+
+        } else {
+          sizeAbout();
+          return $("section.links ul li a").hover((function() {
+            return $(this).next('.thumb').fadeIn(500);
+          }), function() {
+            return $(this).next('.thumb').fadeOut(500);
+          });
         }
       };
       return manon;
