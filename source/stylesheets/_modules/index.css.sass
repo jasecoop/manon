@@ -40,6 +40,8 @@ section.about
   float: left
   text-align: center
   @include clearfix()
+  @include at-breakpoint($break-m)
+    @include padding-trailer(4)
 
 .pad
   background: #fff

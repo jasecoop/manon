@@ -538,39 +538,43 @@ section.about {
   text-align: center;
   overflow: hidden;
   *zoom: 1; }
+  @media (max-width: 52.5em) {
+    /* line 37, _modules/index.css.sass */
+    section.about {
+      padding-bottom: 8em; } }
 
-/* line 44, _modules/index.css.sass */
+/* line 46, _modules/index.css.sass */
 .pad {
   background: white;
   display: block;
   position: fixed; }
 
-/* line 48, _modules/index.css.sass */
+/* line 50, _modules/index.css.sass */
 .pad-top,
 .pad-bottom {
   width: 100%;
   height: 2em;
   left: 0; }
 
-/* line 54, _modules/index.css.sass */
+/* line 56, _modules/index.css.sass */
 .pad-top {
   top: 0; }
 
-/* line 56, _modules/index.css.sass */
+/* line 58, _modules/index.css.sass */
 .pad-bottom {
   bottom: 0; }
 
-/* line 59, _modules/index.css.sass */
+/* line 61, _modules/index.css.sass */
 .pad-left,
 .pad-right {
   width: 2em;
   height: 100%;
   top: 0; }
 
-/* line 64, _modules/index.css.sass */
+/* line 66, _modules/index.css.sass */
 .pad-left {
   left: 0; }
 
-/* line 66, _modules/index.css.sass */
+/* line 68, _modules/index.css.sass */
 .pad-right {
   right: 0; }
