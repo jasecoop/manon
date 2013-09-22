@@ -10,7 +10,7 @@
 module Rack
 
   class TryStatic
-
+    require 'newrelic_rpm'
     def initialize(app, options)
       @app = app
       @try = ['', *options.delete(:try)]
