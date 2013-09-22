@@ -15,13 +15,17 @@ h1
   font-size: 4em
 
 .mega
-  font-size: 8rem
   line-height: 1em
   font-weight: 900
   font-style: italic
   text-decoration: none
+  font-size: 12em
+  @include at-breakpoint($break-m)
+    font-size: 9em
+  @include at-breakpoint($break-s)
+    font-size: 4em
 
-section.index li .title
+section.links li .title
   @extend .mega
   color: $type-black
   display: block

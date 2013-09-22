@@ -2,7 +2,8 @@
 title: Practice Hours
 date: 2012-01-02
 tags: example
-thumb: "images/articles/practicehours/manon_practicehours_5.jpg"
+thumb: "images/articles/practicehours/manon_practicehours_2.jpg"
+intro: "dfsf"
 ---
 
 <article class="post">
@@ -11,11 +12,7 @@ thumb: "images/articles/practicehours/manon_practicehours_5.jpg"
       <p>Practice Hours</p>
     </section>
     <section class="intro">
-      <p>
-        Time is all you need </br>
-        When mastering perfection </br>
-        Want it, then do it.  </br>
-      </p>
+      <p>Time is all you need </br>When mastering perfection </br>Want it, then do it.  </br></p>
     </section>
   </header>
 
@@ -32,11 +29,6 @@ thumb: "images/articles/practicehours/manon_practicehours_5.jpg"
     <div class="photo full">
       <img src="images/articles/practicehours/manon_practicehours_2.jpg">
     </div>
-
-    <div class="photo full">
-      <img src="images/articles/practicehours/manon_practicehours_5.jpg">
-    </div>
-
   </section>
 
 </article>

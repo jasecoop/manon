@@ -4,6 +4,7 @@ date: 2012-01-04
 tags: example
 thumb: "images/articles/valencia/manon_valencia_1.jpg"
 published: true
+intro: "dfsf"
 ---
 
 <article class="post">

@@ -3,6 +3,7 @@ title: ReachOut
 date: 2012-01-02
 tags: example
 thumb: "images/articles/reachout/manon_reachout_1.jpg"
+intro: "dfsf"
 ---
 
 <article class="post">

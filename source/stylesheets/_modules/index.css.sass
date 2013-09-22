@@ -1,18 +1,20 @@
-section.index
+section.links
   ul
     margin: 0
     padding: 0
+    width: 100%
   li
     list-style: none
+    width: 100%
     display: block
-    position: relative
+    float: left
+    text-align: center
+    @include margin-trailer(.5)
+    @include padding-trailer(3)
     a
-      position: absolute
-    &.active
-      a
-        z-index: 2
-      .thumb
-        visibility: visible
+      z-index: 2
+      display: inline-block
+      padding: .5em
 
   .about
     margin-top: 40em
@@ -23,20 +25,55 @@ section.index
 
 
 .thumb
-  width: 60%
-  height: 660px
-  background-position: center center
+  width: 100%
+  height: 100%
+  background-position: center
   background-repeat: no-repeat
   background-size: 100%
   position: fixed
+  right: 0
+  bottom: 0
   overflow: hidden
-  visibility: hidden
   z-index: -1
+  display: none
+  &.active 
+    display: block
 
 .link-final
   .thumb
     .copy
       padding: 3em
       margin-top: 200px
+
+section.about
+  display: block
+  width: 100%
+  float: left
+  text-align: center
+
+.pad
+  background: #fff
+  display: block
+  position: fixed
+.pad-top, 
+.pad-bottom
+  width: 100%
+  height: $grid-padding
+  left: 0
+
+.pad-top
+  top: 0
+.pad-bottom
+  bottom: 0
+
+.pad-left,
+.pad-right
+  width: $grid-padding
+  height: 100%
+  top: 0
+.pad-left
+  left: 0
+.pad-right
+  right: 0
 
 

@@ -3,37 +3,44 @@ pageable: true
 per_page: 10
 ---
 
-    <div class="copy">
-      <p>MANON is a pursuit of stories celebrating football passion and simplicity.</p>
+<!--     <p>For project enquiries and collaborations please email — <a href="mailto:jfay.simmons@gmail.com">jfay.simmons@gmail.com</a></p>
+
+    <p>By <a href="http://twitter.com/jennysimeone">@JennySimeone</a> — follow for MANON updates.</p> -->
+
+  <section class="links">
+    <ul>
+      <% page_articles.each_with_index do |article, i| %>
+        <li class="link link-<%= i %>">
+        	<%= link_to article.title, article, :class => 'title' %>    
+          <div class="thumb" style="background-image: url('<%= article.data.thumb %>');">
+        </li>
+      <% end %>
+    </ul>
+  </section>
+
+  <section class="about">
+    <div>
+      <p>A pursuit of stories celebrating football passion and simplicity</p>
 
       <p>For project enquiries and collaborations please email — <a href="mailto:jfay.simmons@gmail.com">jfay.simmons@gmail.com</a></p>
 
-      <p>By <a href="http://twitter.com/jennysimeone">@JennySimeone</a> — follow for MANON updates.</p>
+      <p>By <a href="http://twitter.com/jennysimeone">@JennySimeone</a> — follow for MANON updates</p>
     </div>
-  </div>
 
-<section class="index">
+  </section>
+
+<div class="pad pad-top"></div>
+<div class="pad pad-right"></div>
+<div class="pad pad-bottom"></div>
+<div class="pad pad-left"></div>
+<!-- <section class="thumbs">
   <ul>
     <% page_articles.each_with_index do |article, i| %>
-      <li class="link link-<%= i %>">
+      <li class="thumb thumb-<%= i %>">
         <div class="thumb" style="background-image: url('<%= article.data.thumb %>');">
         </div>
-      	<%= link_to article.title, article, :class => 'title' %>
       </li>
-    <% end %>
+    <% end %>   
   </ul>
-
-<!--   <div class="about">
-    <div class="content">
-
-      <p>MANON is a pursuit of stories celebrating football passion and simplicity.</p>
-
-      <p>For project enquiries and collaborations please email — <a href="mailto:jfay.simmons@gmail.com">jfay.simmons@gmail.com</a></p>
-
-      <p>By <a href="http://twitter.com/jennysimeone">@JennySimeone</a> — follow for MANON updates.</p>
-
-    </div>
-
-</div> -->
 </section>
-
+ -->
