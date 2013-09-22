@@ -11,18 +11,12 @@ section.links
     text-align: center
     @include margin-trailer(.5)
     @include padding-trailer(3)
+    @include at-breakpoint($break-s)
+      @include padding-trailer(0)
     a
       z-index: 2
       display: inline-block
       padding: .5em
-
-  .about
-    margin-top: 40em
-    .content
-      width: 60%
-      float: right
-      margin-top: -20em
-
 
 .thumb
   width: 100%
@@ -39,17 +33,13 @@ section.links
   &.active 
     display: block
 
-.link-final
-  .thumb
-    .copy
-      padding: 3em
-      margin-top: 200px
 
 section.about
   display: block
   width: 100%
   float: left
   text-align: center
+  @include clearfix()
 
 .pad
   background: #fff
